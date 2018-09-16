@@ -1,0 +1,32 @@
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    background: white;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin: 0 auto 20px;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.table td {
+    color: #669;
+    border-top: 1px dashed #fff;
+    padding: 10px;
+    background: #ccddff;
+}
+
+td {
+    transition: .3s linear;
+}
+a {
+    text-decoration: none;
+}
